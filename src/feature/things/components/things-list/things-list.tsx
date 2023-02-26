@@ -14,7 +14,6 @@ export function ThingsList() {
             <li key={item.id}>
               {item.name}
               <p>id: {item.id}</p>
-
               <p>week: {item.week}</p>
               <p>level: {item.level}</p>
             </li>
