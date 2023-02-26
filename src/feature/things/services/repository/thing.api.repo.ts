@@ -12,23 +12,9 @@ export interface ThingApiRepoStructure {
 }
 
 export class ThingApiRepo {
-  updateChar(arg0: {
-    name: string;
-    imageUrl: string;
-    isFavorite: boolean;
-    films: never[];
-    shortFilms: never[];
-    tvShows: string[];
-    videoGames: string[];
-  }) {
-    throw new Error("Method not implemented.");
-  }
-  deleteChar(arg0: number) {
-    throw new Error("Method not implemented.");
-  }
   url: string;
   constructor() {
-    this.url = "http://localhost:4600/things";
+    this.url = "https://two02301-w6ch5-ariadna-frias-back2.onrender.com/things";
   }
 
   async loadThings(): Promise<ThingStructure[]> {
