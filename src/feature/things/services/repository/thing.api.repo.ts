@@ -14,7 +14,7 @@ export interface ThingApiRepoStructure {
 export class ThingApiRepo {
   url: string;
   constructor() {
-    this.url = "http://localhost:4600/things";
+    this.url = "https://two02301-w6ch5-ariadna-frias-back2.onrender.com/things";
   }
 
   async loadThings(): Promise<ThingStructure[]> {
