@@ -3,7 +3,7 @@ import { createRoot } from "react-dom/client";
 
 import reportWebVitals from "./reportWebVitals";
 import "./index.css";
-import App from "./core/components/app/app";
+import App from "./core/app/app";
 import { store } from "./core/store/store";
 import Provider from "react-redux/es/components/Provider";
 
